@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Concurso de Fantasias</title>
+<style>
+  body{font-family:system-ui,sans-serif;background:#1a1028;color:#fff;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0;text-align:center;padding:24px}
+  a{color:#ff9a3c}
+</style>
+</head>
+<body>
+<main>
+  <h1>Concurso de Fantasias</h1>
+  <p>Abrindo a votação…</p>
+  <p><a id="go" href="#">Toque aqui se não abrir sozinho</a></p>
+</main>
+<script>
+/* ============================================================
+   PARA MUDAR O DESTINO DO QR CODE, EDITE SÓ A LINHA ABAIXO.
+   ============================================================ */
+var DESTINO = "https://monkey-solely-subaru-running.trycloudflare.com/";
+
+document.getElementById("go").href = DESTINO;
+window.location.replace(DESTINO);
+</script>
+<noscript><meta http-equiv="refresh" content="0;url=https://monkey-solely-subaru-running.trycloudflare.com/"></noscript>
+</body>
+</html>
